@@ -23,7 +23,7 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
 
     protected function getTempDir()
     {
-        return realpath(__DIR__ . '/../../') . $this->getOsPath('/data/temp');
+        return ASAR_TESTHELPER_TEMPDIRECTORY;
     }
 
     /**
