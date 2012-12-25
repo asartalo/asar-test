@@ -5,21 +5,21 @@
     "minimum-stability": "alpha",
     "license": "MIT",
     "require": {
-       "php": ">=5.3.0",
+        "php": ">=5.3.0",
         "phpunit/phpunit": "3.7.*"
     },
     "authors" : [
-       {
-           "name": "Wayne Duran",
-           "email": "asartalo@projectweb.ph",
-           "role": "Developer",
-           "homepage": "http://www.asartalo.org"
-       }
+        {
+            "name": "Wayne Duran",
+            "email": "asartalo@projectweb.ph",
+            "role": "Developer",
+            "homepage": "http://www.asartalo.org"
+        }
     ],
     "autoload": {
-       "psr-0": {
-           "Asar\\Tests\\TestHelper": "tests",
-           "Asar\\TestHelper": "src"
-       }
+        "psr-0": {
+            "Asar\\Tests\\TestHelper": "tests",
+            "Asar\\TestHelper": "src"
+        }
     }
 }
